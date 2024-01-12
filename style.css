@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111010;
+}
+
+/*---------HEADER--------- */
+.hero {
+  background-image: url(./img/Leonardo_Diffusion_XL_persona_conduciendo_una_moto_tiene_puest_0.jpg);
+  min-width: 100%;
+  height: 100dvh;
+  padding: 0.1px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.logo {
+  width: 100px;
+  margin-left: 11%;
+  position: absolute;
+  margin-top: 5%;
+  filter: drop-shadow(2px 2px 8px #e9cb08);
+}
+
+.nav-menu {
+  background-color: rgba(0, 0, 0, 0.296);
+  width: 25%;
+  height: 30px;
+  padding: -2rem;
+  display: flex;
+  align-items: center;
+  margin-left: 72%;
+  margin-top: 7%;
+}
+
+.menu {
+  font-size: 20px;
+  list-style: none;
+  color: #fffef8;
+  display: flex;
+  margin-left: 90px;
+  margin: auto;
+  gap: 23px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-title {
+  color: #e9cb08;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 13%;
+  filter: drop-shadow(-2px 1px 1px #000000);
+}
+
+.hero-title-golden {
+  position: absolute;
+  margin-top: -68%;
+  margin-left: -5%;
+}
+
+.hero-title-helmet {
+  position: absolute;
+  margin-top: -41%;
+  margin-left: 60%;
+}
+
+/*--------------------- */
+
+/*-----SECTION TEXT---------- */
+.text-golden-helmet {
+  background-image: url(./persona-con-casco.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position-y: 40px;
+  background-position-x: 99px;
+  max-width: 1200px;
+  height: 138dvh;
+  overflow: hidden;
+  position: relative;
+}
+
+h2 {
+  color: #e9cb08;
+  width: 17%;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 2%;
+  z-index: 4;
+}
+
+.capa-filtro-1 {
+  background-color: #23201574;
+  width: 108%;
+  height: 110%;
+  margin-left: -7%;
+  position: absolute;
+  margin-top: -6%;
+}
+
+.capa-filtro-2 {
+  width: 76%;
+  height: 110%;
+  margin-left: -7%;
+  position: absolute;
+  margin-top: -6%;
+}
+
+.tex-paragraph {
+  width: 60%;
+  color: #ffffff;
+  font-size: 1.2em;
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  margin-left: 3%;
+  margin-top: 12%;
+
+}
+
+/* --------------------------- */
+
+/*--SECTION ESTILOS-- */
+.estilos-gallery-container- {
+  background-color: rgb(0, 0, 0);
+  max-width: 1200px;
+  height: 90dvh;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
+
+.gallery-title {
+  width: 100%;
+  height: 12%;
+  margin-top: -1%;
+  text-align: center;
+  align-items: center;
+  color: #fffef8;
+}
+
+.gallery-picture {
+  width: 30%;
+  height: 90%;
+  margin-top: -1%;
+}
+
+.casco-img {
+  width: 100%;
+  display: flex;
+  margin-top: 1%;
+}
+
+/* opción para mostrar detalles del casco 
+-------------------------------------------
+.labrado{background-image: url(./img/casco-plata-rojo-1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 280px;
+  height:280px ;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position-y: -2px;
+  background-size:170% ;
+}
+
+.casco-img {
+  width: 100%;
+  border-radius: 50%;
+
+  display: flex;
+  margin-top: 1%;
+----------------------------------------------*/
+
+/* ---FOOTER--- */
+footer {
+  background-color: #161313;
+  max-width: 100%;
+  height: 50px;
+  display: flex;flex-direction: row;
+
+
+}
+.iconos{background-color: #90822c;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+.iconos{background-color: #90822c;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+
+
+/* --------------------------------------- */
+
+/* .section-metal-labrado{background-color: #e9cb08;
+  max-width: 100%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin:0 auto;
+  padding: 50px 0;
+  display: flex;
+  
+
+}
+
+.gallery-picture{ min-width: 200px;
+  flex: 350px;
+} */
